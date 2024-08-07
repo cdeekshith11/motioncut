@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function validation(){
+            let x=document.getElementById('values').value;
+            if(x>10 || x<1 )
+              text='invalid input';
+            else
+              text='valid input';
+            document.getElementById("demo").innerHTML=text;
+        }
+    </script>
+    <h1>JavaScript Validation</h1>
+    
+        <label>value</label>
+        <input type="text" id="values">
+        <button onclick="validation()">Submit</button>
+        <p id="demo"></p>
+    
+</body>
+</html>

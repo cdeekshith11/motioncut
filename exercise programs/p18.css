@@ -1,0 +1,32 @@
+#title{
+    color: orange;
+}
+span{
+    color: darkgoldenrod;
+}
+#outer{
+   
+   
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.card{
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+div img{
+    border-radius: 20px;
+    width: 100%;
+    height: 50%;
+}
+@media (max-width:375px){
+    #outer{
+        flex-wrap: wrap;
+    }
+}

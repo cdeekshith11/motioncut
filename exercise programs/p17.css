@@ -1,0 +1,33 @@
+div{
+    width: 200px;
+    height: 200px;
+    animation-name: isize;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    
+    
+    
+}
+@keyframes isize {
+from{
+    font-size: 20px;
+    background-color: green;
+}
+to{
+    font-size: 40px;
+    background-color: red;
+}
+}
+
+@media(min-width:500px){
+    #one{
+        background-color: yellow;
+    }
+}
+
+
+
+    
